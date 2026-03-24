@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap');
-
+:root{
+    --cor-de-fundo: black;
+    --cor-texto-principal: #628141;
+    --cor-texto-secundario: #40513B;
+}
 body{
     font-family: "Datatype", monospace;
 }
