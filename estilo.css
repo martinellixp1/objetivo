@@ -5,5 +5,7 @@
     --cor-texto-secundario: #40513B;
 }
 body{
+    background: var(--cor-de-fundo);
+    color: var(--cor-texto-principal);
     font-family: "Datatype", monospace;
 }
