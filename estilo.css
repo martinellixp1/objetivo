@@ -4,7 +4,7 @@
     --cor-texto-principal: #628141;
     --cor-texto-secundario: #40513B;
     --botao-inativo: rgb(132, 255, 0);
-    --botao-ativo: red;
+    --botao-ativo: rgb(43, 185, 55);
 }
 body{
     background: var(--cor-de-fundo);
