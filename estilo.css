@@ -56,7 +56,7 @@ body{
     .abas-textos{
         background-color: var(--cor-de-fundo);
         padding: 40px;
-        border-radius: 0,0,04px,40px;
+        border-radius: 0,0,40px,40px;
     }
 }
 
