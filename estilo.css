@@ -51,7 +51,14 @@ body{
     border-bottom: 4px solid cyan;
 }
 
-
+.aba-conteudo.ativo{
+    display block;
+    .abas-textos{
+        background-color: var(--cor-de-fundo);
+        padding: 40px;
+        border-radius: 0,0,04px,40px;
+    }
+}
 
 
 
