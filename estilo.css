@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap');
 :root{
     --cor-de-fundo: rgb(0, 0, 0);
-    --cor-texto-principal: #628141;
+    --cor-texto-principal: #34aa8a;
     --cor-texto-secundario: #e4c40d;
     --botao-inativo: rgb(120, 182, 53);
     --botao-ativo: rgb(43, 185, 55);
