@@ -43,8 +43,19 @@ if (tempofinal > 0){
 }
 function atualizacronometro(){
     for(let i=0; 1<contadores.length;i++){
-        document.getElementById("dias"+1).textcontent = cauculatempo(tempos[i])[0]
+        const[dias, horas, minutos, segundos]= cauculatempo(tempos[i])
+        const contador = contadores[i]
+        const numeros = contador.querySelectorAll(".contador-digito-numerico")
+        if(numeros.length >= 0){
+            numeros[0].textContent = dias
+            numeros[1].textContent = horas
+            numeros[2].textContent = minutos
+            numeros[3].textContent = segundos
+        }
     }
 }
-
-cauculatempo(tempoobjetivo)
+function comecacronometro(){
+    atualizacronometro()
+    setinterval(atualizacronometro,1000)
+}
+comecacronometro()
